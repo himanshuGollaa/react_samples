@@ -1,0 +1,259 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Expletus+Sans&display=swap");
+body {
+    background-color:#e9e9e9;
+    font-family: "Roboto";
+    color: #333;
+}
+
+header {
+    
+    text-align:center;
+    height: 50rem;
+    overflow: auto;
+    .header_wrapper {
+        display: flex;
+        .header_left {
+            width: 50%;
+            .header_title {
+                font-family:'Times New Roman', Times, serif;
+                font-size: 1.3rem;
+                text-align: left;
+                margin-left: 7.1rem;
+                text-transform: uppercase;
+                margin-top: 5rem;
+            }
+            .title_description {
+                font-family:"Expletus Sans";
+                font-size: 4.4rem;
+                display: flex;
+                padding: 1rem 7rem;
+                line-height: 5.8rem;
+                text-transform: uppercase;
+                font-weight: initial;
+                text-align: left;
+            }
+            .anchor_links {
+                text-transform: uppercase;
+                a {
+                    margin-right: 2rem;
+                    &:hover {
+                        text-decoration: underline;
+                        font-weight: bold;
+                    }
+                }
+            }
+           
+
+        }
+        .header_right {
+            img {
+                width: 100%;
+                height: auto;
+                &:hover {
+                    color: white;
+                    opacity: 0.8;
+                    transition: all .2s ease-in-out; 
+                    transform: scale(1.1); 
+                    // background-image:url("http://localhost:3000/grey_one.jpg")
+                }
+            }
+        }
+    }
+    
+}
+.white {
+    background-color: white;
+    height: 30rem;
+    overflow: auto;
+    .container {
+        display:flex;
+        flex-direction: row;
+        padding: 1rem;
+        .first {
+            display: flex;
+            height: 26%;
+            width: 50%;
+            padding: 3rem 3rem;
+            margin-left: 5rem;
+            img {
+                height: 373px;
+                padding: 0rem 14rem;
+                &:hover {
+                    color: white;
+                    opacity: 0.8;
+                    transition: all .2s ease-in-out; 
+                    transform: scale(1.1); 
+                    // background-image:url("http://localhost:3000/grey_one.jpg")
+                }
+            }
+        }
+        .second {
+            color: black;
+            text-align: center;
+            width: 50%;
+            padding: 4rem;
+            text-align: left;
+            font-family: sans-serif;
+            line-height: 2.4rem;
+            letter-spacing: 0.1rem;
+            .header_title {
+                font-family: "Expletus Sans";
+                text-align: left;
+                font-size: 4rem;
+                margin: 0;
+            }
+
+        }
+    }
+}
+.grey {
+    background-color: grey;
+    height: 50rem;
+    justify-content: center;
+    .section_title {
+        padding: 2rem 10rem;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    .sub_title {
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-family: "Expletus Sans";
+        width: 41rem;
+        font-weight: bold;
+        margin: 0;
+    }
+    .card_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .card {
+            img {
+                height: 419px;
+                &:hover {
+                    color: white;
+                    opacity: 0.8;
+                    transition: all .2s ease-in-out; 
+                    transform: scale(1.1); 
+                    // background-image:url("http://localhost:3000/grey_one.jpg")
+                }
+            }
+        }
+    }
+}
+.black {
+    background-color:#333;
+    height: 50rem;
+    color: white;
+    overflow: auto;
+    .section_title {
+        padding: 2rem 10rem;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    .sub_title {
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-family: "Expletus Sans";
+        width: 41rem;
+        font-weight: bold;
+        margin: 0;
+    }
+    
+    
+    .card_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .card {
+            img {
+                height: 419px;
+                &:hover {
+                    color: white;
+                    opacity: 0.8;
+                    transition: all .2s ease-in-out; 
+                    transform: scale(1.1); 
+                    // background-image:url("http://localhost:3000/grey_one.jpg")
+                }
+            }
+        }
+    }
+}
+.social_media_wrapper {
+        background-color: grey;
+        height: 35rem;
+        justify-content: center;
+        .Social_media{
+            padding: 2rem 10rem;
+            text-transform: uppercase;
+            margin: 0;
+            text-align: center;
+            color: black;
+        }
+        .sub_title {
+            font-size: 3rem;
+            text-transform: uppercase;
+            font-family: "Expletus Sans";
+            width: 41rem;
+            font-weight: bold;
+            margin: 0;
+        }
+        .card_wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .card {
+                img {
+                    height: 219px;
+                    &:hover {
+                        color: white;
+                        opacity: 0.8;
+                        transition: all .2s ease-in-out; 
+                        transform: scale(1.1); 
+                        // background-image:url("http://localhost:3000/grey_one.jpg")
+                    }
+                }
+            }
+        }
+    }
+
+footer {
+    background-color: #333;
+    height: 50rem;
+    color: white;
+    .footer_heading {
+        text-align: center;
+        font-size: 4rem;
+        font-family:"Expletus Sans";
+        padding: 2rem;
+    }
+    .contact_link {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-size: 1.2rem
+    }
+    .middle {
+        
+        display: flex;
+        justify-content: center;
+        .margin {
+            padding: 1rem;
+            :hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    .logo {
+        img {
+            border-radius: 50%;
+            opacity: .6;
+            padding: 1rem 8rem;
+        }
+    }
+    .social_media_icons {
+        width: 2rem;
+    }
+}    
+        
