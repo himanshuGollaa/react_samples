@@ -9,15 +9,17 @@ function App() {
         <header>
           <div className="header_wrapper">
             <div className="header_left">
-              <p className="header_title">International artisan & construction material sourcing company</p>
-              <p className="title_description">Discovering special people producing extraordinary products</p>
-              <div className="anchor_links">
-                <a>Our products</a>
-                <a>Our Services</a>
+              <div className="banner_content">
+                <p className="header_title">International artisan & construction material sourcing <br /> company</p>
+                <p className="title_description">Discovering special people producing extraordinary products</p>
+                <div className="anchor_links">
+                  <a>Our products</a>
+                  <a>Our Services</a>
+                </div>
               </div>
             </div>
             <div className="header_right">
-              <img class="responsive" src="https://djzfsf1yiw-flywheel.netdna-ssl.com/wp-content/uploads/2020/01/banner.jpg"/>
+              {/* <img class="responsive" src="https://djzfsf1yiw-flywheel.netdna-ssl.com/wp-content/uploads/2020/01/banner.jpg"/> */}
             </div>
           </div>
         </header>
@@ -25,7 +27,12 @@ function App() {
         <section className="white">
           <div className="container">
             <div className="first">
-              <img src="http://localhost:3000/watch2.jpg" />
+              <div className="image_big">
+                <img src="http://localhost:3000/big.jpg" />
+              </div>
+              <div className="image_small">
+                <img src="http://localhost:3000/small.jpg" />
+              </div>  
             </div>
             <div className="second">
               <h2 className="header_title">About Us</h2>
@@ -39,61 +46,69 @@ function App() {
           
         </section >
         <section className="black">
-          <div className="section_title">
-            <h1>Exclusive Store</h1>
-            <p className="sub_title">
-            Brought to Boston by Adige Design 
-            </p>
-            
-          </div>
-          <div className="card_wrapper">
-            <div className="card">
+          <div className="black_wrapper">
+            <div className="section_title">
+              <h3>Exclusive Store</h3>
+              <p className="sub_title">
+              Brought to Boston by Adige Design 
+              </p>
+              
+            </div>
+            <div className="card_wrapper">
+
+              <div className="card">
+                <div className="figure_wrapper">
+                  <figure>
+                    <img src="http://localhost:3000/kitchen.jpg" />
+                    <figcaption>Kitchen</figcaption>
+                  </figure> 
+                </div>
+              </div>
+
+              <div className="card">
+                <div className="figure_wrapper">
+                  <figure>
+                    <img src="http://localhost:3000/custom.jpg" />
+                    <figcaption>Custom</figcaption>
+                  </figure> 
+                </div>
+              </div>
+
+              <div className="card">
               <div className="figure_wrapper">
                 <figure>
-                  <img src="http://localhost:3000/watch2.jpg" />
-                  <figcaption>Closet System</figcaption>
+                  <img src="http://localhost:3000/closet.jpg" />
+                  <figcaption>Closet</figcaption>
                 </figure> 
               </div>
             </div>
-
-            <div className="card">
-              <div className="figure_wrapper">
-                <figure>
-                  <img src="http://localhost:3000/watch2.jpg" />
-                  <figcaption>Closet System</figcaption>
-                </figure> 
-              </div>
             </div>
-
-            <div className="card">
-            <div className="figure_wrapper">
-              <figure>
-                <img src="http://localhost:3000/watch2.jpg" />
-                <figcaption>Closet System</figcaption>
-              </figure> 
-            </div>
-          </div>
           </div>
         </section>
-        <section className="white">
+        <section className="developer_section">
         <div className="container">
             <div className="first">
-              <img src="http://localhost:3000/watch2.jpg" />
+              <div className="image_big">
+                <img src="http://localhost:3000/serving_developer1.jpg" />
+              </div>
+              <div className="image_small">
+                <img src="http://localhost:3000/serving_developer2.jpg" />
+              </div>  
             </div>
             <div className="second">
-              <h2 className="header_title">About Us</h2>
-              <p>Adige Design is a Boston-based international artisan and construction material sourcing company
-                with a passion for quality products. Our mission is to uncover special artisans, unique materials
-                and products, and incorporate them in any development, home, or office.
+              <h2 className="header_title">Servicing developers, architects, designers and homeowners alike</h2>
+              <p>As a full service architectural material sourcing company, we offer an array of design and tailored 
+                consulting services for luxury materials and artisan products from the initial stages of a project 
+                through the construction stage, in addition to interior design and furniture specifications.
               </p>
-            </div> 
-        </div>
+            </div>
+          </div>
         </section>
         <section className="grey">
           <div className="section_title">
               <h1>Exclusive Store</h1>
               <p className="sub_title">
-              Brought to Boston by Adige Design 
+              True master of their craft
               </p>
               
             </div>
