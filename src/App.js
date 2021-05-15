@@ -23,7 +23,7 @@ function App() {
             </div>
           </div>
         </header>
-        
+        <hr id="vertical_line"></hr> 
         <section className="white">
           <div className="container">
             <div className="first">
@@ -45,46 +45,56 @@ function App() {
 
           
         </section >
+        <hr id="vertical_line"></hr>  
         <section className="black">
           <div className="black_wrapper">
-            <div className="section_title">
-              <h3>Exclusive Store</h3>
-              <p className="sub_title">
-              Brought to Boston by Adige Design 
-              </p>
-              
-            </div>
-            <div className="card_wrapper">
+            <div className="padding"></div>
+              <div className="section_title">
+                <h3>Exclusive Store</h3>
+                <p className="sub_title">
+                Brought to Boston by Adige Design 
+                </p>
+                
+              </div>
+              <div className="card_wrapper">
 
-              <div className="card">
+                <div className="card">
+                  <div className="figure_wrapper">
+                    <figure>
+                      <div className="image_wrapper">
+                        <img src="http://localhost:3000/kitchen.jpg" />
+                      </div>
+                      <figcaption>Kitchen</figcaption>
+                    </figure> 
+                  </div>
+                </div>
+
+                <div className="card">
+                  <div className="figure_wrapper">
+                    <figure>
+                      <div className="image_wrapper">
+                        <img src="http://localhost:3000/custom.jpg" />
+                      </div>
+                      <figcaption>Custom</figcaption>
+                    </figure> 
+                  </div>
+                </div>
+
+                <div className="card">
                 <div className="figure_wrapper">
                   <figure>
-                    <img src="http://localhost:3000/kitchen.jpg" />
-                    <figcaption>Kitchen</figcaption>
+                    <div className="image_wrapper">
+                      <img src="http://localhost:3000/closet.jpg" />
+                    </div>
+                    <figcaption>Closet</figcaption>
                   </figure> 
                 </div>
               </div>
-
-              <div className="card">
-                <div className="figure_wrapper">
-                  <figure>
-                    <img src="http://localhost:3000/custom.jpg" />
-                    <figcaption>Custom</figcaption>
-                  </figure> 
-                </div>
               </div>
-
-              <div className="card">
-              <div className="figure_wrapper">
-                <figure>
-                  <img src="http://localhost:3000/closet.jpg" />
-                  <figcaption>Closet</figcaption>
-                </figure> 
-              </div>
-            </div>
-            </div>
+            <div className="padding"></div>
           </div>
         </section>
+        <hr id="vertical_line"></hr> 
         <section className="developer_section">
         <div className="container">
             <div className="first">
@@ -104,6 +114,7 @@ function App() {
             </div>
           </div>
         </section>
+        <hr id="vertical_line"></hr> 
         <section className="grey">
           <div className="section_title">
               <h1>Exclusive Store</h1>
@@ -116,7 +127,9 @@ function App() {
                 <div className="card">
                   <div className="figure_wrapper">
                     <figure>
-                      <img src="http://localhost:3000/project1.jpg" />
+                      <div className="image_wrapper">
+                        <img src="http://localhost:3000/project1.jpg" />
+                      </div>
                       <figcaption>Closet System</figcaption>
                     </figure> 
                   </div>
@@ -125,7 +138,9 @@ function App() {
                 <div className="card">
                   <div className="figure_wrapper">
                     <figure>
-                      <img src="http://localhost:3000/project_two.jpg" />
+                      <div className="image_wrapper">
+                        <img src="http://localhost:3000/project_two.jpg" />
+                      </div>
                       <figcaption>Closet System</figcaption>
                     </figure> 
                   </div>
@@ -133,14 +148,18 @@ function App() {
 
                 <div className="card"> 
                   <div className="figure_wrapper">
+                    
                       <figure>
-                        <img src="http://localhost:3000/project_three.jpg" />
-                        <figcaption>Closet System</figcaption>
+                        <div className="image_wrapper">
+                          <img src="http://localhost:3000/project_three.jpg" />
+                        </div>  
+                          <figcaption>Closet System</figcaption>
                       </figure> 
                   </div>
-            </div>
+                </div>
           </div>    
         </section>
+        <hr id="vertical_line"></hr> 
         <section className="black">
         <div className="section_title">
             <h1>Exclusive Store</h1>
@@ -153,7 +172,9 @@ function App() {
             <div className="card">
               <div className="figure_wrapper">
                 <figure>
-                  <img src="http://localhost:3000/black_one.jpg" />
+                  <div className="image_wrapper">
+                    <img src="http://localhost:3000/black_one.jpg" />
+                  </div>
                   <figcaption>Closet System</figcaption>
                 </figure> 
               </div>
@@ -162,7 +183,9 @@ function App() {
             <div className="card">
               <div className="figure_wrapper">
                 <figure>
-                  <img src="http://localhost:3000/black_two.jpg" />
+                  <div className="image_wrapper">
+                    <img src="http://localhost:3000/black_two.jpg" />
+                  </div>
                   <figcaption>Closet System</figcaption>
                 </figure> 
               </div>
@@ -171,13 +194,16 @@ function App() {
             <div className="card">
             <div className="figure_wrapper">
               <figure>
-                <img src="http://localhost:3000/black_three.jpg" />
+                <div className="image_wrapper">
+                  <img src="http://localhost:3000/black_three.jpg" />
+                </div>
                 <figcaption>Closet System</figcaption>
               </figure> 
             </div>
           </div>
           </div>
         </section>
+        <hr id="vertical_line"></hr> 
         <section className="social_media_wrapper">
           <div className="Social_media">
             <h1>Instagram</h1>
@@ -187,7 +213,7 @@ function App() {
                 <div className="figure_wrapper">
                   <figure>
                     <img src="http://localhost:3000/grey_one.jpg" />
-                    <figcaption>Closet System</figcaption>
+                    
                   </figure> 
                 </div>
               </div>
@@ -196,7 +222,7 @@ function App() {
                 <div className="figure_wrapper">
                   <figure>
                     <img src="http://localhost:3000/grey_two.jpg" />
-                    <figcaption>Closet System</figcaption>
+                    
                   </figure> 
                 </div>
               </div>
@@ -205,7 +231,7 @@ function App() {
                 <div className="figure_wrapper">
                   <figure>
                     <img src="http://localhost:3000/grey_three.jpg" />
-                    <figcaption>Closet System</figcaption>
+                    
                   </figure> 
                 </div>
               </div>
@@ -214,7 +240,7 @@ function App() {
               <div className="figure_wrapper">
                 <figure>
                   <img src="http://localhost:3000/watch1.jpg" />
-                  <figcaption>Closet System</figcaption>
+                  
                 </figure> 
               </div>
             </div>
@@ -244,7 +270,19 @@ function App() {
             </div>
           </div>
           <div className="logo">
-            <img src="http://localhost:3000/logo.png" />
+            <div className="adige_logo">
+              <p className="first_line">Adige</p>
+              <p className="second_line">Modern Design</p>
+            </div>
+            <div className="facebook_logo">
+              <img src="http://localhost:3000/facebook.png" />
+            </div>
+            <div className="instagram_logo">
+              <img src="http://localhost:3000/instagram.png" />
+            </div>
+            <div className="linkedin_logo">
+              <img src="http://localhost:3000/linkedin.png" />
+            </div>
           </div>  
           {/* <div className="social_media_icons">
               <a href="#" className="Facebook_icon">

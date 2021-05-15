@@ -59,11 +59,20 @@ header {
     }    
 }
 
-    
+#vertical_line {
+    width: 100px;
+    background: transparent;
+    transform: rotate(90deg);
+    color: black;
+    padding: 0px;
+    margin: 0 auto;
+}
 
 .white {
     background-color: white;
     height: max-content;
+    padding-top: 120px;
+    padding-bottom: 120px;
     .container {
         display:flex;
         flex-direction: row;
@@ -119,6 +128,8 @@ header {
     background-color:rgb(203, 209, 210);
     height: 50rem;
     justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
     .section_title {
         padding: 2rem 8.4rem;
         text-transform: uppercase;
@@ -137,15 +148,23 @@ header {
         flex-wrap: wrap;
         justify-content: center;
         .card {
+            .image_wrapper {
+                overflow:hidden;
+            }
             figcaption {
                 font-family: "Exodus Demo";
+                text-align: center;
+                font-size: 2rem;
+                position: relative;
+                bottom: 3rem;
+                color: white;
             }
             img {
-                height: 419px;
+                height: 500px;
                 &:hover {
                     color: white;
                     opacity: 0.8;
-                    transition: all .2s ease-in-out; 
+                    transition: all .2s ease; 
                     transform: scale(1.1); 
                     // background-image:url("http://localhost:3000/grey_one.jpg")
                 }
@@ -158,6 +177,11 @@ header {
     height: 50rem;
     color: white;
     overflow: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    .padding {
+        height: 2rem;
+    }
     .section_title {
         padding: 2rem 8.4rem;
         text-transform: uppercase;
@@ -171,18 +195,25 @@ header {
         font-weight: bold;
         margin: 0;
     }
-    
+
     
     .card_wrapper {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         .card {
+            .image_wrapper {
+                overflow:hidden;
+            }
             figcaption {
                 font-family:"Exodus Demo";
+                text-align: center;
+                font-size: 2rem;
+                position: relative;
+                bottom: 3rem;
             }
             img {
-                height: 419px;
+                height: 500px;
                 &:hover {
                     color: white;
                     opacity: 0.8;
@@ -198,6 +229,7 @@ header {
         background-color:rgb(203, 209, 210);
         height: 35rem;
         justify-content: center;
+        padding-top: 100px;
         .Social_media{
             padding: 2rem 10rem;
             text-transform: uppercase;
@@ -205,6 +237,7 @@ header {
             text-align: center;
             color: black;
             font-family: "Be Vietnam";
+            font-size: 1rem;
         }
         .sub_title {
             font-size: 3rem;
@@ -254,17 +287,56 @@ footer {
         display: flex;
         justify-content: center;
         .margin {
-            padding: 1rem;
+            padding: 4rem;
             :hover {
                 text-decoration: underline;
             }
         }
     }
     .logo {
-        img {
-            border-radius: 50%;
-            opacity: .6;
-            padding: 1rem 8rem;
+        display: flex;
+        .adige_logo {
+            .first_line {
+                padding: 0rem 11rem;
+                font-family: "Exodus Demo";
+                font-size: 3rem;
+                letter-spacing: 0.4rem;
+                margin-bottom: 0;
+                line-height: 1rem;
+            }
+            .second_line {
+                padding: 0.5rem 13.4rem;
+                font-weight: lighter;
+                text-transform: uppercase;
+                font-size: 0.8rem;
+            }
+        }
+        .facebook_logo {
+            img {
+                width: 2rem;
+                padding: 4rem 1rem;
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+        .instagram_logo {
+            img {
+                width: 2rem;
+                padding: 4rem 1rem;
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+        .linkedin_logo {
+            img {
+                width: 2rem;
+                padding: 4rem 1rem;
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
         }
     }
 }    
@@ -272,6 +344,8 @@ footer {
 .developer_section {
     background-color: white;
     height: max-content;
+    padding-top: 120px;
+    padding-bottom: 120px;
     .container {
         display:flex;
         flex-direction: row;
