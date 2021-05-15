@@ -248,17 +248,23 @@ function App() {
         </section>
         <footer>
           <div className="footer_heading">
+
             Get In Touch
           </div>
-          <p className="contact_link">Contact us</p>
+          <div className="link_wrapper">
+            <p className="link">Contact us</p>
+          </div>
           <div className="middle">
             <div className="margin child1">
               <p>100 Summer Street, Suite 1600</p>
               <p>Boston, MA 02110</p>
             </div>
             <div className="margin child2">
-              <p>543-54358743</p>
-              <p>email@email.com</p>
+              <div className="link_wrapper">
+              <a href="tel:(617) 370 8810" className="link thin" target="_blank">(617) 370 8810</a>
+              </div>
+              
+              <a>email@email.com</a>
             </div>
             <div className="margin child3">
               <p>Privacy Policy</p>
