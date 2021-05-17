@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.scss';
+import '../src/sass/main.scss';
   
 
 function App() {
@@ -13,8 +12,12 @@ function App() {
                 <p className="header_title">International artisan & construction material sourcing <br /> company</p>
                 <p className="title_description">Discovering special people producing extraordinary products</p>
                 <div className="anchor_links">
-                  <a>Our products</a>
-                  <a>Our Services</a>
+                  <div className="link_wrapper">
+                    <a className="link">Our products</a>
+                  </div>
+                  <div className="link_wrapper">
+                    <a className="link">Our Services</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -263,9 +266,10 @@ function App() {
               <div className="link_wrapper">
               <a href="tel:(617) 370 8810" className="link thin" target="_blank">(617) 370 8810</a>
               </div>
-              
-              <a>email@email.com</a>
-            </div>
+              <div className="link_wrapper">
+              <a className="link thin">email@email.com</a>
+              </div>
+            </div>  
             <div className="margin child3">
               <p>Privacy Policy</p>
               <p>Customer Feedback</p>
