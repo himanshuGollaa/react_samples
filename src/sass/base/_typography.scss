@@ -1,1 +1,69 @@
- 
+.banner_content {
+    padding-top: 6rem;
+    .header_title {
+        font-family:'Be Vietnam';
+        font-size: .875rem;
+        color: $color-primary-black;
+        margin-left: 7.1rem;
+        text-transform: uppercase;
+        margin-top: 5rem;
+        background-color: #cbd1d2;
+    }
+    .title_description {
+            font-family:"Exodus Demo";
+            font-size: 3.5rem;
+            display: flex;
+            padding: 1rem 7rem;
+            line-height: 4.6rem;
+            text-transform: uppercase;
+            font-weight: initial;
+            color: $color-primary-black;
+        }
+    .anchor_links {
+            text-transform: uppercase;
+            padding: 0rem 7rem;
+            font-family:'Be Vietnam';
+            font-size: .875rem;
+            text-decoration: none;
+            display: flex;
+            color: $color-primary-black;
+            a {
+                margin-right: 2rem;
+                color: $color-primary-black;
+                ;
+                .link {
+                    color: $color-primary-black;
+                    &:after {
+                        background-color: $color-primary-black;
+                    }
+                    &:hover {
+                        background-color: $color-primary-black;
+                    }
+                }
+            }
+        }
+}
+
+.second {
+    color: $color-primary-black;
+    width: max-content;
+    padding: 11.3rem 7rem;
+    text-align: left;
+    font-family: "Be vietnam";
+    line-height: 1.6rem;
+    letter-spacing: 0.2rem;
+    .header_title {
+        font-family: "Exodus Demo";
+        text-align: left;
+        font-size: 2.6rem;
+        margin: 0;
+    }
+    p {
+        font-size: 1.125rem;
+        line-height: 180%;
+        margin-top: 3rem;
+    }
+
+}
+
+

@@ -5,6 +5,38 @@ function App() {
   return (
     <div className="App">
       <body>
+        <div className="navigation">
+          <div className="navigation_inner">
+            {/* <div className="__logo">
+              A
+            </div> */}
+
+            <div className="__menu">
+              <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+              <label for="navi-toggle" className="navigation__button">A</label>
+
+              <div class="navigation__background">&nbsp;</div>
+
+              <nav className="navigation__nav">
+                <ul className="navigation__list">
+                  <li className="navigation__item"><a href="#" className="navigation__link">Products</a></li>
+                  <li className="navigation__item"><a href="#" className="navigation__link">Services</a></li>
+                  <li className="navigation__item"><a href="#" className="navigation__link">Artisanss</a></li>
+                  <li className="navigation__item"><a href="#" className="navigation__link">Projects</a></li>
+                  <li className="navigation__item"><a href="#" className="navigation__link">Showroom</a></li>
+                  <li className="navigation__item"><a href="#" className="navigation__link">About</a></li>
+                  <li className="navigation__item"><a href="#" className="navigation__link">Contact</a></li>
+                  <li className="navigation__item"><a href="#" className="navigation__link">Brochure</a></li>
+                </ul>
+                <p className="navigation__big_A">A</p>
+              </nav>  
+                
+            </div>
+
+          </div>
+
+
+        </div>
         <header>
           <div className="header_wrapper">
             <div className="header_left">

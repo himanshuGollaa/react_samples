@@ -9,18 +9,14 @@
 @import "base/utilities";
 
 @import "pages/home";
+@import "layout/navigation";
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Expletus+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@600&display=swap");
 
-body {
-    background-color:#e9e9e9;
-    color: #333;
-}
-$color-primary-black:#221f20;
-$color-primary-white:#fff;
-$color-background-zumthor: #cbd1d2;
+
+
 .link_wrapper {
     text-align: center;
     .link {
@@ -69,47 +65,7 @@ header {
         .header_left {
             width: 50%;
             background-color: $color-background-zumthor;
-            .banner_content {
-                .header_title {
-                    font-family:'Be Vietnam';
-                    font-size: .875rem;
-                    color: $color-primary-black;
-                    margin-left: 7.1rem;
-                    text-transform: uppercase;
-                    margin-top: 5rem;
-                    background-color: #cbd1d2;
-                }
-                .title_description {
-                    font-family:"Exodus Demo";
-                    font-size: 3.5rem;
-                    display: flex;
-                    padding: 1rem 7rem;
-                    line-height: 4.6rem;
-                    text-transform: uppercase;
-                    font-weight: initial;
-                    color: $color-primary-black;
-                }
-                .anchor_links {
-                    text-transform: uppercase;
-                    padding: 0rem 7rem;
-                    font-family:'Be Vietnam';
-                    font-size: .875rem;
-                    text-decoration: none;
-                    display: flex;
-                    color: $color-primary-black;
-                    a {
-                        margin-right: 2rem;
-                        color: $color-primary-black;
-                        ;
-                        .link {
-                            color: $color-primary-black;
-                            &:hover {
-                                background-color: $color-primary-black;
-                            }
-                        }
-                    }
-                }
-            }
+          
             
         }
         .header_right {
@@ -162,7 +118,6 @@ header {
                 }
             }   
         }
-        
         .second {
             color: $color-primary-black;
             width: max-content;
@@ -182,7 +137,6 @@ header {
                 line-height: 180%;
                 margin-top: 3rem;
             }
-
         }
     }
 }
@@ -236,7 +190,7 @@ header {
     }
 }
 .black {
-    background-color:#333;
+    background-color:$color-background-black;
     height: max-content;
     color: $color-primary-white;
     overflow: auto;
@@ -333,7 +287,7 @@ header {
     }
 
 footer {
-    background-color: #333;
+    background-color:$color-background-black;
     color: $color-primary-white;
     height: max-content;
     .footer_heading {
