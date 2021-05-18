@@ -70,18 +70,27 @@
     font-family: "Be vietnam";
     line-height: 1.6rem;
     letter-spacing: 0.2rem;
+    @include respond(tab-port) {
+        padding: 21.3rem 7rem;
+        padding-bottom: 0;
+    }
     .header_title {
         font-family: "Exodus Demo";
         text-align: left;
         font-size: 2.6rem;
         margin: 0;
-    }
+        @include respond(tab-port) {
+            font-size: 3.4rem;
+        }
     p {
         font-size: 1.125rem;
         line-height: 180%;
         margin-top: 3rem;
+        @include respond(tab-port) {
+            font-size: 2.1rem;
+            font-weight: 100;
+            line-height: 200%;
+        }
     }
-
+    }
 }
-
-
