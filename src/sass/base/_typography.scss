@@ -1,5 +1,9 @@
 .banner_content {
     padding-top: 6rem;
+    padding-bottom: 6rem;
+    @include respond(tab-port) {
+        padding-bottom: 0;
+    }
     .header_title {
         font-family:'Be Vietnam';
         font-size: .875rem;
