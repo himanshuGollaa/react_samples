@@ -85,7 +85,7 @@ function App() {
           <div className="black_wrapper">
             <div className="padding"></div>
               <div className="section_title">
-                <h3>Exclusive Store</h3>
+                <h3 className="title">Exclusive Store</h3>
                 <p className="sub_title">
                 Brought to Boston by Adige Design 
                 </p>
@@ -97,7 +97,10 @@ function App() {
                   <div className="figure_wrapper">
                     <figure>
                       <div className="image_wrapper">
-                        <img src="http://localhost:3000/kitchen.jpg" />
+                        <img srcset="black_one.jpg 600w,
+                                      black_one_big.jpg 900w"
+                             sizes="(max-width: 600px) 600px,(max-width: 945px) 900px, 600px"         
+                             src="http://localhost:3000/black_one.jpg" />
                       </div>
                       <figcaption>Kitchen</figcaption>
                     </figure> 
@@ -108,7 +111,7 @@ function App() {
                   <div className="figure_wrapper">
                     <figure>
                       <div className="image_wrapper">
-                        <img src="http://localhost:3000/custom.jpg" />
+                        <img src="https://adigedesign.com/wp-content/uploads/2019/12/KateKelly_Ellis-2647-Edit-552x700.jpg" />
                       </div>
                       <figcaption>Custom</figcaption>
                     </figure> 
@@ -119,7 +122,7 @@ function App() {
                 <div className="figure_wrapper">
                   <figure>
                     <div className="image_wrapper">
-                      <img src="http://localhost:3000/closet.jpg" />
+                      <img src="https://adigedesign.com/wp-content/uploads/2020/03/Adige_Artisan_Olivieri_Mobili-05-1-552x700.jpg" />
                     </div>
                     <figcaption>Closet</figcaption>
                   </figure> 
