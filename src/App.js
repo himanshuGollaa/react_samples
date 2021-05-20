@@ -80,7 +80,9 @@ function App() {
 
           
         </section >
+        
         <hr id="vertical_line"></hr>  
+        
         <section className="black">
           <div className="black_wrapper">
             <div className="padding"></div>
@@ -132,7 +134,9 @@ function App() {
             <div className="padding"></div>
           </div>
         </section>
+        
         <hr id="vertical_line"></hr> 
+        
         <section className="developer_section">
         <div className="container">
             <div className="first">
@@ -152,7 +156,9 @@ function App() {
             </div>
           </div>
         </section>
+        
         <hr id="vertical_line"></hr> 
+        
         <section className="grey">
           <div className="section_title">
               <h1>Exclusive Store</h1>
@@ -197,7 +203,9 @@ function App() {
                 </div>
           </div>    
         </section>
+        
         <hr id="vertical_line"></hr> 
+        
         <section className="black">
         <div className="section_title">
             <h1>Exclusive Store</h1>
@@ -241,7 +249,9 @@ function App() {
           </div>
           </div>
         </section>
+        
         <hr id="vertical_line"></hr> 
+        
         <section className="social_media_wrapper">
           <div className="Social_media">
             <h1>Instagram</h1>
@@ -284,13 +294,14 @@ function App() {
             </div>
           </div>
         </section>
+        
         <footer>
           <div className="footer_heading">
 
             Get In Touch
           </div>
           <div className="link_wrapper">
-            <p className="link">Contact us</p>
+            <p className="link subheading">Contact us</p>
           </div>
           <div className="middle">
             <div className="margin child1">
@@ -306,9 +317,15 @@ function App() {
               </div>
             </div>  
             <div className="margin child3">
-              <p>Privacy Policy</p>
-              <p>Customer Feedback</p>
-              <p>Copy Right</p>
+              <div className="link_wrapper">
+                <p className="link thin">Privacy Policy</p>
+              </div> 
+              <div className="link_wrapper">
+                <p className="link thin">Customer Feedback</p>
+              </div>  
+              <div className="link_wrapper">  
+                <p className="link thin">Copy Right</p>
+              </div>
             </div>
             <div className="margin child4">
               <p>copyrightlink</p>
